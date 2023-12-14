@@ -71,8 +71,23 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
+    <div className={styles.textCenter}
+    style={{
+    height:`100vh`,
+    paddingTop:`60vh`,
+    isplay: `flex`,
+    alignItems: `center`,
+    }}
+>
+<dif style={{ 
+     textAlign: `end`
+      }}>
+        <p><b>JULIAN MONTANI</b> Biegerstr.11, 51063 Colonge, Germany</p>
+   <div>
+   <p><b>TEL</b> +49 (0)17687577507 <b>E-MAIL</b> julian@montani.events</p> 
+   </div>
+</dif>
+      {/* <StaticImage
         src="../images/example.png"
         loading="eager"
         width={64}
@@ -82,9 +97,9 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
+        Julian Montani
+      </h1> */}
+      {/* <p className={styles.intro}>
         <b>Example pages:</b>{" "}
         {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
@@ -94,9 +109,9 @@ const IndexPage = () => (
         ))}
         <br />
         Edit <code>src/pages/index.js</code> to update this page.
-      </p>
+      </p> */}
     </div>
-    <ul className={styles.list}>
+    {/* <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
           <a
@@ -108,13 +123,13 @@ const IndexPage = () => (
           <p className={styles.listItemDescription}>{link.description}</p>
         </li>
       ))}
-    </ul>
-    {moreLinks.map((link, i) => (
+    </ul> */}
+    {/* {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
-    ))}
+    ))} */}
   </Layout>
 )
 
@@ -123,6 +138,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="J" />
 
 export default IndexPage
