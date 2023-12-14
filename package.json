@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "montani events",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Julian Montani",
   "dependencies": {
     "gatsby": "^5.12.12",
     "gatsby-plugin-image": "^3.12.3",
